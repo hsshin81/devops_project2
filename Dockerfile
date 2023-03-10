@@ -1,3 +1,3 @@
-FROM nginx:latest-alpine
+FROM nginx:1.23.3-alpine
 EXPOSE 3000
 CMD ["echo 'hello world devops project 2'"]
