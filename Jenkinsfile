@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ("Heesung - Build docker image") {
             steps {
-                sh "docker image build -t hsatl81/devops_project2:v1"
+                sh "docker image build -t hsatl81/devops_project2:v1 ."
             }
         }
         stage ("Heesung - Login to dockerhub") {
